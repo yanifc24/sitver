@@ -1,0 +1,41 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+Template Name: Constra - Construction Html5 Template
+Description: Constra - Construction Html5 Template
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+-------------------------------------------------------------------*/
+
+@import 'mixins';
+@import 'variables';
+@import 'typography';
+@import 'common';
+@import 'buttons';
+@import 'templates/navigation';
+@import 'templates/main';
+
+.azul {
+    background-color: rgb(26, 64, 99);
+}
+.shad{
+    background-color: rgb(238, 183, 66);
+   
+}
+.greybtn{
+    background-color: rgb(224, 224, 224);
+}
+@media (min-width:769px ) and (max-width:1024px)  {
+.block{
+    display: block;
+    width:220vw;
+    justify-content: center;
+    align-items: center;
+}}
+
+@media (min-width:300px ) and (max-width:824px)  {
+.mapgoogle{
+   display:flex;
+}}
