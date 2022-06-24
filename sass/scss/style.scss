@@ -27,6 +27,16 @@ Description: Constra - Construction Html5 Template
 .greybtn{
     background-color: rgb(224, 224, 224);
 }
+.square{
+    list-style-type: square ;
+    color:orange;
+    padding-top:10px;padding-bottom:10px;
+  
+}
+li span{color:#555; 
+}
+
+.orange{color:rgb(26, 64, 99)}
 @media (min-width:769px ) and (max-width:1024px)  {
 .block{
     display: block;
